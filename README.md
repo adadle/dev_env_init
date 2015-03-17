@@ -1,4 +1,4 @@
 OpenTools
 =========
 
-Some tools used in work.
+Some tools/scripts used in work/mac.
