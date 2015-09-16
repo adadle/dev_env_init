@@ -1,0 +1,25 @@
+[core]
+    editor = vim
+	excludesfile = /Users/tony/.gitignore_global
+[merge]
+    tool = vimdiff
+[color]
+    status = auto
+    branch = auto
+    interactive = auto
+    diff = auto
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    last = log -1 HEAD
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[user]
+	name = tonylee
+	mail = tonylee0329@gmail.com
+	email = tonylee0329@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
