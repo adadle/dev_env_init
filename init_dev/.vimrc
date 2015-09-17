@@ -120,7 +120,8 @@ set nowb
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
-"set expandtab
+set ts=4
+set expandtab
 
 " Be smart when using tabs ;)
 set smarttab
