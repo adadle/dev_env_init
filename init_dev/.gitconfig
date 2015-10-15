@@ -1,6 +1,6 @@
 [core]
     editor = vim
-	excludesfile = /Users/tony/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [merge]
     tool = vimdiff
 [color]
