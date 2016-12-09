@@ -18,7 +18,6 @@
 [user]
 	name = tonylee
 	mail = tonylee0329@gmail.com
-	email = tonylee0329@gmail.com
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
