@@ -10,7 +10,8 @@ mkdir -p ${svr_home}
 
 curl -LsSf http://github.com/mxcl/homebrew/tarball/master | sudo tar xvz -C$svr_home} --strip 1
 
-mv Homebrew-homebrew-900cfbd/ homebrew
+# 手动查看版本
+#mv Homebrew-homebrew-900cfbd/ homebrew
 
 cd ${brew_home}
 
