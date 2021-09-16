@@ -17,9 +17,16 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 exec $SHELL
 
 # setup python env
+<<<<<<< HEAD:init_dev/setup.sh
 py2='2.7.10' 
 pyenv install $py2
 pyenv global $py2
+=======
+#py2='2.7.10'
+py='3.9.0'
+pyenv install $py
+pyenv global $py
+>>>>>>> 5591935... 更新一些环境初始选择的版本号, 整理目录:linux_init/setup.sh
 ## you need to rehash 
 pyenv rehash
 sudo easy_install pip
